@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id="header">
+        <div class="img-container">
+            <img id="header-img" src="./img/fast_working 1.png" alt="">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1 id="title">Rocketeer</h1>
+            <p>Manage your products like a pro</p>
+            <div class="form-container">
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                    <div class="form-group">
+                        <label>Contact us, enter your email below:
+                            <input id="email" name="email" type="email" placeholder="your email here" required>
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <input id="submit" type="submit" value="Get started" />
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section id="about">
+            <div class="video-container">
+                <h2>About our platform</h2>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y6120QOlsfU"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
